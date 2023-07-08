@@ -1,0 +1,35 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    background-color: #dcf78b;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .task-item__content {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .task-item__button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item__button:hover {
+    background-color: #ff0000; 
+  }
+  

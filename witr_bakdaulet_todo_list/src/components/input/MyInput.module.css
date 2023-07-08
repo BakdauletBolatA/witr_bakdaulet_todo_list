@@ -1,0 +1,12 @@
+.myInput {
+    padding: 100px;
+    border: 20px solid rgb(61, 20, 227);
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .myInput:focus {
+    border-color: rgb(157, 83, 241);
+  }
